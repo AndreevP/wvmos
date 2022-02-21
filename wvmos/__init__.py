@@ -13,5 +13,5 @@ if (not os.path.exists(path)):
     )
     print('Weights downloaded in: {} Size: {}'.format(path, os.path.getsize(path)))
     
-def get_wvmos():
-    return Wav2Vec2MOS(path)
+def get_wvmos(cuda=True):
+    return Wav2Vec2MOS(path, cuda=cuda)
