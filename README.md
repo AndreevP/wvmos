@@ -22,6 +22,7 @@ mos = model.calculate_dir("path/to/dir/with/wav/files", mean=True) # infer avera
 
 ## Citation and Acknowledgment
 
+```
 @misc{https://doi.org/10.48550/arxiv.2203.13086,
   doi = {10.48550/ARXIV.2203.13086},
   
@@ -39,4 +40,5 @@ mos = model.calculate_dir("path/to/dir/with/wav/files", mean=True) # infer avera
   
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
+```
 
